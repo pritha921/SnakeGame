@@ -7,4 +7,22 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
     background-size: 100vw 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    background: linear-gradient(rgb(174, 235, 174), rgb(240, 240, 137));
+    width:80vmin;
+    height: 92vmin;
+    border:2px solid black;
+    display:grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+.head{
+    background-color: red;
+}
+.food{
+    background-color: pink;
 }
